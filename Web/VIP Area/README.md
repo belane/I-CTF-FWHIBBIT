@@ -1,0 +1,1 @@
+Restricted area only for elite rabbits. Do you want to be part of this group? Then GO AHEAD!

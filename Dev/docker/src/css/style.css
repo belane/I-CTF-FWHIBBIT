@@ -1,0 +1,57 @@
+#countryside{
+  background-image:url('../img/cesped.png');
+  background-repeat: repeat-x;
+  background-position: right bottom;
+  height: 150px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+.container{
+/*	width: 1024px;*/
+}
+#reload{display: none;
+}
+#row{
+  width: 100%;
+}
+.col{ display: inline-block;}
+.info{
+  text-align: center;
+	width: 100%;
+}
+.data{
+  text-align: center;
+width: 100%;
+}
+#containerCarrot{
+  text-align: right;
+  width: 20%;
+}
+#containerRabbit{
+  width: 80%;
+}
+
+#solution{ width: 63%;}
+#timer{
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  width: 20%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+#reload,#send{
+  width: 10%;
+}
+
+@media (max-width: 750px) {
+  #solution{ width: 55%;}
+  #reload,#send{width: 15%;
+  }
+}
+@media (max-width: 400px) {
+  #solution{ width: 50%;}
+  #reload,#send{width: 20%;
+  }
+}

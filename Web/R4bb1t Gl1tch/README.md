@@ -1,0 +1,1 @@
+Glitchs are very annoying, we hate them. Maybe the user stays with you ;)

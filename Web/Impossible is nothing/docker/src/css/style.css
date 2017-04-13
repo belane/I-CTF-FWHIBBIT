@@ -1,0 +1,327 @@
+body {
+    font-family: "Ubuntu";
+    background: #efefef;
+    /*overflow: hidden;*/
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+#content {
+    margin: 15px 15px 0 15px;
+    position: relative;
+}
+
+
+#header {
+    height: 44px;
+    background: #284F74 url(../img/top-bg.png) repeat-x;
+}
+
+#result {
+    background: #ffffff;
+}
+
+#branding {
+    float: left;
+    width: 210px;
+    padding: 0 7px 0 10px;
+    font-size:2.0em;
+    font-weight:bold;
+    text-shadow: black 0.05em 0.05em 0.05em;
+    color: #ffffff;
+}
+
+#home {
+    display: block;
+    width: 166px;
+    height: 44px;
+    text-indent: -9999px;
+    color:#ffffff;
+    /*background: transparent url(../img/phptester.png) no-repeat 0 50%;*/
+}
+
+#sidebar {
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    width: 217px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background-color: #fff;
+    color: #444;
+}   
+
+    #sidebar input[type='text'],
+    #sidebar input[type='password'],
+    
+
+    #sidebar textarea {
+        height: 90px;
+    }    
+    
+    #sidebar .selectPanel .selectFake {
+        color: #999;
+        font-size: 1em;
+    }    
+
+    #sidebar .toggler,
+
+    #sidebar .element {
+        border-bottom: 1px solid #D5D5D5;
+    }
+
+    #sidebar .element a:hover {
+        text-decoration: underline;
+    }
+
+#actions {
+    height: 44px;
+}
+
+#actions ul.actionCont {
+    float: left;
+    margin: 7px 10px 0 0;
+}
+
+    #actions ul.right {
+        float: right;
+        
+    }
+
+    #actions li.actionItem {
+        float: left;
+        position: relative;
+    }
+    
+    
+/*
+        #actions li.actionItem .aiButton,
+        #actions li.actionItem .aiButton span {
+            background-image: url(../img/actions.png);
+            background-position: 0 -26px;
+            background-repeat: no-repeat;
+        }
+*/
+
+        #actions li.actionItem a.aiButton {
+            border: solid 1.5px #232B50;
+            display: block;
+            outline: none;
+            text-decoration: none;
+            text-shadow: 0 1.5px 1.5px #173161;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 12px;
+            background-color: #284F74;
+            cursor:pointer;
+        }
+        
+        #actions .submit {
+            border: solid 1.5px #232B50;            
+            display: block;            
+            outline: none;            
+            text-decoration: none;            
+            text-shadow: 0 1.5px 1.5px #173161;            
+            color: #ffffff;            
+            font-weight: bold;            
+            font-size: 12px;            
+            background-color: #284F74;            
+            cursor: pointer;            
+            padding: 5px 10px;            
+            position: relative;            
+            top: -0.5px;
+        }
+        
+        #actions .cbutton {
+            border: solid 1.5px #232B50;            
+            display: block;            
+            outline: none;            
+            text-decoration: none;            
+            text-shadow: 0 1.5px 1.5px #173161;            
+            color: #ffffff;            
+            font-weight: bold;            
+            font-size: 12px;            
+            background-color: #284F74;            
+            cursor: pointer;            
+            padding: 5px 10px;            
+            position: relative;            
+            top: -0.5px;
+        }
+        
+        #actions .captcha {
+            border: solid 1.5px #232B50;                 
+            text-decoration: none;                       
+            font-weight: bold;            
+            font-size: 15px;            
+            cursor: pointer;            
+            padding: 5px 10px;            
+            position: relative;            
+            top: -10.5px;
+        }
+
+
+            #actions li.actionItem a.aiButton span {
+                display: block;
+                padding: 0 10px 0 10px;
+                line-height: 26px;
+            }
+
+            #actions li.noIcon a.aiButton span {
+                background-image: none;
+                padding: 0 8px;
+            }
+                #actions ul.dropdown .dropdownCont li a:hover {
+                    background: #eee;
+                }
+
+
+    #actions ul.collapsed li.actionItem {
+        margin-left: -1px;
+    }
+
+    #actions ul.dropdown li.actionItem a.aiButton {
+        background-position: 100% -26px;
+    }
+
+    #actions #run span {
+        background-position: 8px -100px;
+    }
+
+
+        
+        #actions div.dropdownCont div.dcWrapper ul li a:hover {
+            background: #fff;
+            text-decoration: underline;
+        }
+
+
+#content fieldset.column {
+    display: block;
+    height: 100%;
+    width: 50%;
+}
+
+#content .window {
+    width: 100%;
+    border: 1px solid #adadad;
+    box-shadow: inset 0 1px 3px #E4E4E4;
+}
+
+    #content .bottom {
+        height: 100%;
+        position: absolute;
+        bottom: -6px;
+    }
+    
+    #content .right {
+        position: absolute;
+        right: -5px;
+    }
+    
+    #content .left {
+        position: absolute;
+        left: -5px;
+    }
+
+    #handler_vertical {
+        width: 8px;
+        height: 100%;
+        padding: 5px 0;
+        
+        position: absolute;
+        top: -5px;
+        left: 0;
+        background: url(../img/handle-v.png) 3px 50% no-repeat;
+    
+    }
+
+    #content textarea,
+    #result iframe {
+        min-width: 100px;
+        width: 100%;
+        height: 100%;
+        line-height: 15px;
+        font-family: "Inconsolata", "Monaco", "Consolas", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+        font-size: 12px;
+    }
+
+    
+    #content textarea,
+    #content iframe {
+        background: #fff;
+        box-shadow: inset 0 1px 3px #E4E4E4;
+        border: 0 !important;
+    }
+
+    
+    #content textarea {
+        display: block;
+    }
+
+    
+    .window_label {
+        background: #fff;
+        display: inline-block;
+        height: 20px;
+        padding: 0 6px;
+        line-height: 20px;
+        z-index: 100;
+        position: absolute;
+        top: 5px;
+        right: 4px;
+        font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", "Luxi Sans", Tahoma, sans-serif;
+        text-align: center;
+        font-size: 11px;
+        color: #888;
+        border-radius: 3px;
+        border: solid 1px #D3D4D5;
+    }
+    
+    .CodeMirror-wrapping {
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .shim {
+        display: none;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    #share-social a:hover {
+        text-decoration: underline;
+    }
+
+
+    #documentation-info a:hover {
+        text-decoration: underline;
+    }
+
+
+    
+    #sidebar #external_resources_list li a.remove:hover {
+        background: url(../img/remove-resources.png) 0 50% no-repeat;
+    }
+
+
+    .modal_Coffee .error {
+        padding: 5px 10px;
+    }
+
+.keyActions:hover {
+    text-decoration: underline;
+}
+
+

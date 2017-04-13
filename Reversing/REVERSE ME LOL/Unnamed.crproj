@@ -1,0 +1,3 @@
+<project outputDir="C:\Users\Fernando\Desktop\CTF\5-Reversing\Carrot\Carrot\Confused" baseDir="C:\Users\Fernando\Desktop\CTF\5-Reversing\Carrot\Carrot" xmlns="http://confuser.codeplex.com">
+  <module path="bin\Release\Carrot.exe" />
+</project>
