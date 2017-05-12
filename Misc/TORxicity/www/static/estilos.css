@@ -1,0 +1,427 @@
+.celda-formulario {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #333;
+	background-color: #FFF;
+	border: 1px solid #000;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+.cuadro-sup {
+	background-image: url(../static/cuadro-blanco-con-sombra/cuadro-a2.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.cuadro-inf {
+	background-image: url(../static/cuadro-c2.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.cuadro-izq {
+	background-image: url(../static/cuadro-b1.jpg);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.cuadro-der {
+	background-image: url(../static/cuadro-b3.jpg);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+.fondo-blanco {
+	background-color: #FFF;
+}
+.cuadro-solid {
+	border: thin solid #CCC;
+}
+.cuadro-dotted {
+	border: medium dotted #CCC;
+}
+.cuadro-dashed {
+	border: medium dashed #CCC;
+}
+.cuadro-double {
+	border: medium double #CCC;
+}
+.cuadro-groove {
+	border: medium groove #CCC;
+}
+.cuadro-ridge {
+	border: medium ridge #CCC;
+}
+.cuadro-outset {
+	border: medium outset #CCC;
+}
+.linea-horizontal {
+	background-image: url(../static/01-linea-continua-horizontal.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+.linea-vertical {
+	background-image: url(../static/01-linea-continua-vertical.jpg);
+	background-repeat: repeat-y;
+	background-position: center center;
+}
+.linea-rayitas-horizontal {
+	background-image: url(../static/02-linea-horizontal-rayitas.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+.linea-rayitas-vertical {
+	background-image: url(../static/02-linea-vertical-rayitas.jpg);
+	background-repeat: repeat-y;
+	background-position: center center;
+}
+.linea-puntos-horizontal {
+	background-image: url(../static/03-linea-puntos-horizontal.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+.linea-puntos-vertical {
+	background-image: url(../static/03-linea-puntos-vertical.jpg);
+	background-repeat: repeat-y;
+	background-position: center center;
+}
+.cuadro-gris-a2 {
+	background-image: url(../static/cuadro-gris-a2.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.cuadro-gris-b1 {
+	background-image: url(../static/cuadro-gris-b1.jpg);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.cuadro-gris-b2 {
+	background-image: url(../static/cuadro-gris-b2.jpg);
+	background-repeat: repeat;
+}
+.cuadro-gris-b3 {
+	background-image: url(../static/cuadro-gris-b3.jpg);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+.cuadro-gris-c2 {
+	background-image: url(../static/cuadro-gris-c2.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.linea-horizontal-puntitos-juntos {
+	background-image: url(../static/linea-horizontal-puntitos-juntitos.jpg);
+	background-repeat: repeat-x;
+	background-position: center;
+}
+.linea-vertical-puntitos-juntos {
+	background-image: url(../static/linea-vertical-puntitos-juntitos.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+}
+.cuadro-sin-sombra-inf {
+	background-image: url(../static/cuadroblancoc2.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.cuadro-sin-sombra-izq {
+	background-image: url(../static/cuadroblancob1.jpg);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.cuadro-sin-sombra-der {
+	background-image: url(../static/cuadroblancob3.jpg);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+.cuadro-sin-sombra-sup {
+	background-image: url(../static/cuadroblancoa2.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.texto-09-justificado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	line-height: 20px;
+	color: #999;
+	text-align: justify;
+}
+.texto-09-sin-justificado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	line-height: 20px;
+	color: #999;
+}
+.texto-10-justificado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	color: #999;
+	text-align: justify;
+}
+.texto-10-sin-justificado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	color: #FFF;
+}
+.texto-12-justificado {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666;
+	text-align: justify;
+}
+.texto-12-sin-justificado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #999;
+}
+.texto-14-justificado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	text-align: justify;
+}
+.texto-14-sin-justificado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #666;
+}
+.texto-16-justificado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #999;
+	text-align: justify;
+}
+.texto-16-sin-justificado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #999;
+}
+.texto-18-justificado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: #999;
+	text-align: justify;
+}
+.texto-18-sin-justificado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	color: #999;
+}
+.texto-24-justificado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 20px;
+	color: #999;
+	text-align: justify;
+}
+.texto-24-sin-justificado {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 20px;
+	color: #000;
+}
+.texto-36-justificado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	line-height: 50px;
+	color: #333;
+}
+.texto-36-sin-justificado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	line-height: 40px;
+	color: #999;
+}
+.texto12blanco {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFF;
+}
+.texto16negro {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000;
+}
+.boton-grande {
+	background-image: url(../static/boton984574.png);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+}
+.texto14times {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	line-height: 25px;
+	color: #666;
+}
+.fondo-cabecera-mujer {
+	background-image: url(../static/cabecera-mujer.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.tabla-menu {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+}
+.fondo-gris-plata {
+	background-image: url(../static/fondo-gris-plata.png);
+	background-repeat: repeat;
+}
+.fondo-gris-marengo {
+	background-image: url(../static/fondo-gris-marengo.png);
+	background-repeat: repeat;
+}
+.linea-fondo-gris-plata {
+	background-image: url(../static/linea-divisoria-para-fondo-gris-plata.png);
+	background-repeat: repeat-y;
+	background-position: center;
+}
+.texto-color-01 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	line-height: 40px;
+	color: #666;
+}
+.texto-color-02 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	line-height: 50px;
+	color: #666;
+}
+.texto-color-03 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+	color: #EFAA47;
+}
+.texto-color-04 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #666;
+	font-weight: lighter;
+	font-variant: normal;
+}
+.texto-color-05 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #999;
+}
+.texto-color-06 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	line-height: 35px;
+	color: #999;
+	text-decoration: line-through;
+}
+.texto-color-07 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #96C;
+}
+.texto-color-08 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #990;
+}
+.texto-color-09 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #F6F;
+}
+.texto-color-10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #600;
+}
+.texto-pie-de-web {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FE531A;
+}
+.fondo-titulo {
+	background-image: url(../static/fondo-titulo.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+.fondo-menu {
+	background-image: url(../static/fondo-menu.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+.mediana {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #666;
+	line-height: 25px;
+}
+.texto-blanco-titulo-grande {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	line-height: 60px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.altoiframeauto {
+	overflow: auto;
+	width: 100%;
+}
+.fondo-con-luz {
+	background-image: url(../static/fondo-con-luz.png);
+	background-repeat: repeat-y;
+	background-position: center;
+}
+.texto18blanco {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	line-height: 35px;
+	color: #FFF;
+}
+.fondo-con-foto {
+	background-image: url(../static/fondo-franja.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+.fondo-transparente-negro {
+	background-image: url(../static/fondo-transparente-negro.png);
+	background-repeat: repeat;
+}
+.fondo-transparente-azul {
+	background-image: url(../static/fondo-transparente-azul.png);
+	background-repeat: repeat;
+}
+.fondo-transparente-blanco {
+	background-image: url(../static/fondo-transparente-blanco.png);
+	background-repeat: repeat;
+}
+.icono-menu-responsive {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	line-height: 50px;
+	color: #999;
+	background-image: url(../static/fondo-gris-plata.png);
+	background-repeat: repeat;
+	background-position: center center;
+	height: 60px;
+	width: 300px;
+}
+.fondo-cabecera-hombre {
+	background-image: url(../static/cabecera-hombre.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}

@@ -1,0 +1,11 @@
+dirs
+
+13SKocaUf3rCgiFissrWcwd4E97SXVWooY
+16PVXvvMnXKSiKXccdYikHZJMyNNBMQHDg
+1CvZrjrYdyoBYbBksPh8qEg8WJx5aeZ6MF
+1E9TwYcuxAVPYYgkqTbbPRG4W7RXJzLk3j
+
+https://bitcoinchain.com/block_explorer/address/13SKocaUf3rCgiFissrWcwd4E97SXVWooY
+https://bitcoinchain.com/block_explorer/address/16PVXvvMnXKSiKXccdYikHZJMyNNBMQHDg
+https://bitcoinchain.com/block_explorer/address/1CvZrjrYdyoBYbBksPh8qEg8WJx5aeZ6MF
+https://bitcoinchain.com/block_explorer/address/1E9TwYcuxAVPYYgkqTbbPRG4W7RXJzLk3j

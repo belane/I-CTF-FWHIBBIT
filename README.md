@@ -24,6 +24,9 @@
   * R4bb1t Gl1tch
   * VIP Area
   * Wash your Money
+* Misc
+  * TORxicity
+  * New Gold
 
 
 ### [All Challanges, descriptions and Write Ups](https://www.fwhibbit.es/ctf-fwhibbit-writeups)
