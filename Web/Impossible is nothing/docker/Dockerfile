@@ -8,7 +8,8 @@ ENV fpm_conf /etc/php7/php-fpm.d/www.conf
 RUN sed -i -e "s/v3.4/edge/" /etc/apk/repositories && apk update && \
     apk add --no-cache nginx \
     supervisor \
-    php7-fpm &&\
+    php7-fpm \
+    libbsd &&\
     mkdir -p /etc/nginx && \
     mkdir -p /run/nginx && \
     mkdir -p /var/log/supervisor && \

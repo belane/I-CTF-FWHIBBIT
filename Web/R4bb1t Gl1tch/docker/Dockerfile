@@ -9,6 +9,7 @@ RUN sed -i -e "s/v3.4/edge/" /etc/apk/repositories && apk update && \
     apk add --no-cache nginx \
     supervisor \
     php7-fpm \
+    libbsd \
     php7-dom \
     php7-xml &&\
     mkdir -p /etc/nginx && \
